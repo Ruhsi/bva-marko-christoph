@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Input-Output">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/ImageJ/plugins/Input-Output/nifti_io.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/ImageJ/plugins/Input-Output/Deltavision_Opener.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/ImageJ/plugins/Input-Output/Exif_Reader.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/ImageJ/plugins/Input-Output/LSM_Reader.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

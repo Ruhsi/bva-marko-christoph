@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/ImageJ/plugins/jars/BeanShell.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/ImageJ/plugins/jars/Auto_Threshold.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

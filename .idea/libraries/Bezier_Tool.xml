@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Bezier_Tool">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/ImageJ/plugins/Tools/Bezier_Tool.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
