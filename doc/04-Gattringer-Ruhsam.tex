@@ -124,7 +124,7 @@ Sobald es einen Hit gibt, wird im HoughSpace an der Stelle \textbf{$hs.houghSpac
 Um den besten fitness-Wert zu finden, wird der gesamte HoughSpace durchlaufen und der max-Wert an der Stelle \textbf{$hs.houghSpace[x][y][rad]$} gesucht.
 
 \subsubsection{(g) Result presentation}
-Diese Aufgabe wird unter dem Punkt \ref{TestsUndAuswertung}{ Tests und Auswertung} behandelt.
+Aufgrund dieser beiden Plots kann bereits die Qualität des Endergebnisses vorausgesagt werden. Jeder Hotspot (weiße Punkte) ist mit großer Wahrscheinlichkeit das Zentrum eines gefundenen Kreises. Je klarer und eindeutiger diese Hotspots sind, desto höher ist die Wahrscheinlichkeit das ein Kreis gefunden wurde und desto besser ist das Endergebnis (Vergleiche die jeweiligen Bilder der einzelnen Testfälle). 
 
 \newpage
 \subsection{Code}
@@ -216,12 +216,14 @@ Diese Aufgabe wird unter dem Punkt \ref{TestsUndAuswertung}{ Tests und Auswertun
 	\centering
 	\includegraphics[scale=0.6]{\imageDir/Iris5BestRadiusSpace.png}
 	\caption{Best Radius Space}
+	\label{fig-best-radius-iris5}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.6]{\imageDir/Iris5RadiusMIPSpace.png}
 	\caption{Radius MIP Space}
+	\label{fig-mip-space-iris5}
 \end{figure}
 
 \newpage
